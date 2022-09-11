@@ -1,0 +1,17 @@
+{
+	"parent": "minecraft:block/carved_pumpkin",
+	"overrides": [
+	    {
+	      "model": "malloc:item/big_bomb",
+	      "predicate": {
+		"custom_model_data": 33197
+	      }
+	    },
+	    {
+	      "model": "malloc:item/bomb_target",
+	      "predicate": {
+		"custom_model_data": 35197
+	      }
+	    }
+	]
+}

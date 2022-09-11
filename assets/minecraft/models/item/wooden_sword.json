@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 92197
+      },
+      "model": "malloc:item/dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99581
+      },
+      "model": "malloc:item/broadsword"
+    }
+  ]
+}
